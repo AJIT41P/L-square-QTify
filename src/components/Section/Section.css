@@ -1,28 +1,29 @@
 .section {
-    padding: 32px;
-  }
-  
-  .sectionHeader {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 24px;
-  }
-  
-  .sectionHeader h2 {
-    color: white;
-  }
-  
-  .sectionButton {
-    background: none;
-    border: none;
-    color: var(--color-primary);
-    font-weight: 600;
-    cursor: pointer;
-  }
-  
-  .sectionGrid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
+  padding: 32px;
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.sectionHeader h2 {
+  color: white;
+}
+
+.sectionButton {
+  background: none;
+  border: none;
+  color: var(--color-primary);
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.sectionGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}

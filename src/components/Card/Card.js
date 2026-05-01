@@ -1,7 +1,14 @@
 import "./Card.css";
+
 import Chip from "@mui/material/Chip";
 
-function Card({ image, follows, title }) {
+function Card({
+  image,
+  follows,
+  likes,
+  title,
+  type
+}) {
   return (
     <div className="card">
       <div className="cardImageContainer">
@@ -13,7 +20,11 @@ function Card({ image, follows, title }) {
 
         <div className="cardChip">
           <Chip
-            label={`${follows} Follows`}
+            label={
+              type === "song"
+                ? `${likes} Likes`
+                : `${follows} Follows`
+            }
             size="small"
             sx={{
               backgroundColor: "#121212",
