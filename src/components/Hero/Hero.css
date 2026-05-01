@@ -1,0 +1,19 @@
+.hero {
+    background-color: var(--color-black);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 80px;
+  }
+  
+  .heroText {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .heroText h1 {
+    font-size: 32px;
+    font-weight: 700;
+  }
